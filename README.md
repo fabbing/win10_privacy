@@ -1,0 +1,1 @@
+Adding some privacy to Windows 10 by [applying advice from ANSSI](ANSSI%20Win10%20privacy/README.md) and [hardening the firewall configuration](Firewall/README.md).

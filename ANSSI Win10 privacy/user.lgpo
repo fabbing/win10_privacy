@@ -1,0 +1,47 @@
+; ----------------------------------------------------------------------
+; PARSING User POLICY
+; Source file:  [path]\DomainSysvol\GPO\User\registry.pol
+
+User
+Software\Policies\Microsoft\Windows\CloudContent
+ConfigureWindowsSpotlight
+DWORD:2
+
+User
+Software\Policies\Microsoft\Windows\CloudContent
+IncludeEnterpriseSpotlight
+DWORD:0
+
+User
+Software\Policies\Microsoft\Windows\CloudContent
+DisableThirdPartySuggestions
+DWORD:1
+
+User
+Software\Policies\Microsoft\Windows\CloudContent
+DisableTailoredExperiencesWithDiagnosticData
+DWORD:1
+
+User
+Software\Policies\Microsoft\Windows\CloudContent
+DisableWindowsSpotlightFeatures
+DWORD:1
+
+User
+Software\Policies\Microsoft\Windows\CloudContent
+DisableWindowsSpotlightWindowsWelcomeExperience
+DWORD:1
+
+User
+Software\Policies\Microsoft\Windows\CloudContent
+DisableWindowsSpotlightOnActionCenter
+DWORD:1
+
+User
+Software\Policies\Microsoft\Windows\CloudContent
+DisableWindowsSpotlightOnSettings
+DWORD:1
+
+; PARSING COMPLETED.
+; ----------------------------------------------------------------------
+
